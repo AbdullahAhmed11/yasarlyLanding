@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Navbar from "./Navbar";
 import { BsAndroid2 } from "react-icons/bs";
@@ -10,17 +9,10 @@ import ChatSection from "./ChatSection";
 import TouchSection from "./TouchSection";
 import Footer from "./Footer";
 import Trending from "./Trending";
+
 const Home = () => {
-  const downloadFile = () => {
-    const link = document.createElement("a");
-    link.href = "/yassarly-webSetup.exe";
-    link.download = "yassrly.exe";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   return (
-    <div className="w-full h-[800px]  bg-[#09C1E0] flex flex-col gap-5">
+    <div className="w-full h-[800px] bg-[#09C1E0] flex flex-col gap-5">
       <Navbar />
       <div className="flex items-center justify-center flex-col gap-5">
         <div>
@@ -35,23 +27,25 @@ const Home = () => {
           </p>
         </div>
         <div className="flex items-center gap-5">
-          <button className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#23B54A] rounded-md ">
+          <button className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#23B54A] rounded-md">
             <BsAndroid2 className="text-[#fff]" />{" "}
-            <span className="text-[#fff]">Download for Andriod</span>
+            <span className="text-[#fff]">Download for Android</span>
           </button>
-          <button className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#141414] rounded-md ">
+          <button className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#141414] rounded-md">
             <BsApple className="text-[#fff]" />{" "}
             <span className="text-[#fff]">Download for iOS</span>
           </button>
-          <button
-            onClick={downloadFile}
-            className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#00A3FF] rounded-md "
+          <a
+            href="https://drive.google.com/file/d/1CgQlON1TElTmbK52X2EqdXQyE8yUuKiW/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#00A3FF] rounded-md"
           >
             <FaWindows className="text-[#fff]" />{" "}
             <span className="text-[#fff]">Download for Windows</span>
-          </button>
+          </a>
         </div>
-        <div className="flex items-center justify-center gap-6 mt-[25px] ">
+        <div className="flex items-center justify-center gap-6 mt-[25px]">
           <div className="bg-[#000] rounded-[15px]">
             <img src="./Pixel.png" alt="pixel" />
           </div>
