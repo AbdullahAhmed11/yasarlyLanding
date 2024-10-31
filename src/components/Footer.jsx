@@ -6,7 +6,7 @@ import { BsApple } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="w-full pb-10 bg-[#093343] flex flex-col">
-      <div className="flex items-center justify-between p-4 mt-[100px]">
+      <div className="flex flex-col md:flex-row md:items-center justify-between p-4 mt-[100px]">
         <div className="w-1/2 flex flex-col gap-5">
           <div className="flex gap-3 items-center">
             <div className="w-[50px] h-[50px] bg-[#DFFAFF] flex items-center justify-center">
@@ -33,12 +33,12 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="w-1/2 flex flex-col gap-5">
-          <h2 className="font-bold text-[#fff] text-[25px]">Get the App</h2>
+        <div className=":w-1/2 flex flex-col gap-5">
+          <h2 className="font-bold text-[#fff] text-[15px] md:text-[25px]">Get the App</h2>
           <div className="flex items-center gap-5">
             <button className="flex items-center justify-center gap-1 w-[200px] h-[50px] bg-[#23B54A] rounded-md ">
               <BsAndroid2 className="text-[#fff]" />{" "}
-              <span className="text-[#fff]">Download for Andriod</span>
+              <span className="text-[#fff] text-[15px]">Download for Andriod</span>
             </button>
             <button className="flex items-center justify-center gap-1 w-[200px] h-[50px] bg-[#141414] rounded-md ">
               <BsApple className="text-[#fff]" />{" "}

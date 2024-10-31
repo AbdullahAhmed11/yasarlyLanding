@@ -4,7 +4,7 @@ import { FaWindows } from "react-icons/fa";
 import { BsApple } from "react-icons/bs";
 const DesctopSection = () => {
   return (
-<div className='w-full flex items-center justify-between'>
+<div className='w-full flex flex-col md:flex-row items-center justify-between'>
   <div className='w-1/2 h-[500px] bg-[#24D1EC] relative'>
     {/* First Image */}
     <img src='./macbook.png' alt="macbook" className='ml-[150px] mt-[30px]' />

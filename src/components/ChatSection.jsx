@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 
 const ChatSection = () => {
   return (
-    <div className='w-full flex items-center justify-between'>
+    <div className='w-full flex flex-col md:flex-row items-center justify-between'>
         <div className='w-1/2 h-[600px] flex items-center  justify-center bg-[#24D1EC] relative'>
 
 <img src="./Group.png" className='z-10 h-[650px]'  alt="pixel"/>

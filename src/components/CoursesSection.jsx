@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa6";
 
 const CoursesSection = () => {
   return (
-    <div className='w-full flex items-center justify-between'>
+    <div className='w-full flex flex-col md:flex-row items-center justify-between'>
           <div className='w-1/2 p-4 flex flex-col ga-5'>
           
           <h2 className='text-[25px] text-[#09C1E0] font-medium'>High Quality Courses</h2>

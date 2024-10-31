@@ -26,11 +26,15 @@ const Home = () => {
             <br /> leaders and subject matter experts committed to your success.
           </p>
         </div>
-        <div className="flex items-center gap-5">
-          <button className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#23B54A] rounded-md">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <a  
+            href="https://play.google.com/store/apps/details?id=com.yassrly456assem"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#00A3FF] rounded-md">
             <BsAndroid2 className="text-[#fff]" />{" "}
             <span className="text-[#fff]">Download for Android</span>
-          </button>
+          </a>
           <button className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#141414] rounded-md">
             <BsApple className="text-[#fff]" />{" "}
             <span className="text-[#fff]">Download for iOS</span>
@@ -45,7 +49,7 @@ const Home = () => {
             <span className="text-[#fff]">Download for Windows</span>
           </a>
         </div>
-        <div className="flex items-center justify-center gap-6 mt-[25px]">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-[25px]">
           <div className="bg-[#000] rounded-[15px]">
             <img src="./Pixel.png" alt="pixel" />
           </div>
