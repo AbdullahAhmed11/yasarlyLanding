@@ -40,7 +40,7 @@ const Home = () => {
             <span className="text-[#fff]">Download for iOS</span>
           </button>
           <a
-            href="https://drive.google.com/file/d/1CgQlON1TElTmbK52X2EqdXQyE8yUuKiW/view?usp=sharing"
+            href="https://drive.google.com/file/d/19I6n7LThjadxx28cKqyr4b12G7QJzM1e/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 w-[270px] h-[70px] bg-[#00A3FF] rounded-md"
